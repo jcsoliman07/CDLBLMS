@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --primary: #00693E;
+  --secondary #F8F8FA;
+}
+
+.nav {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00693E;
+}
+
+.nav img{
+  width: 120px;
+  height: 120px;
+}
+
+.nav .schoolname{
+  margin: -10px 0 0 10px;
+  font-size: 4.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:  #F8F8FA;
+}
